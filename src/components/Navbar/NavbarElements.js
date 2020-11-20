@@ -36,11 +36,24 @@ export const NavLogo = styled(LinkR)`
     cursor: pointer;
     font-size: 1.5rem;
     display: flex;
-    align-items: center;
-    margin-left: 24px;
+    align-items: left;
+    margin-left: 14px;
     font-weight: bold;
     text-decoration: none;
+    width: 210px;
+    height: 80px;
 
+    @media screen and (max-width: 480px) {
+        width: 180px;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-top: 5px;
+        margin: 0;
+        display: block;
+        
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -97,7 +110,7 @@ export const NavBtn = styled.nav`
     }
 `
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled.a`
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;

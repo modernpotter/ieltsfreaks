@@ -2,9 +2,7 @@ import React from 'react'
 import {animateScroll as scroll } from 'react-scroll';
 
 import {
-    FaFacebook, 
     FaInstagram,
-    FaLinkedin,
     FaTelegram
 } from 'react-icons/fa'
 
@@ -41,7 +39,7 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>  Contact Us</FooterLinkTitle>
-                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="tel:123-456-7890">Call Us: 99 316 3 111</ExtLink></FooterLink>
+                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="tel:99-316-3111">Call Us: 99 316 3 111</ExtLink></FooterLink>
                             <FooterLink target="_blank" rel="noreferrer"><ExtLink href="//www.t.me/dawoudabdullaev">Telegram</ExtLink></FooterLink>
                             <FooterLink target="_blank" rel="noreferrer"><ExtLink href="mailto: ieltsfreaks@gmail.com">Email: ieltsfreaks@gmail.com</ExtLink></FooterLink>
                             <FooterLink target="_blank" rel="noreferrer"><ExtLink href="sms:+998 99 316 3 111&body=Hi! You are Texting IELTS freaks">Send SMS</ExtLink></FooterLink>
@@ -62,12 +60,6 @@ const Footer = () => {
                             </SocialIconLink>
                             <SocialIconLink href="//wwww.t.me/ieltsfreaks" target="_blank" aria-label="Telegram">
                                 <FaTelegram/>
-                            </SocialIconLink>                            
-                            <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
-                                <FaLinkedin />
-                            </SocialIconLink> 
-                            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                                <FaFacebook />
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>

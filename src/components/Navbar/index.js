@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
-import Logo1 from '../../images/navLogo.png'
+import Logo1 from '../../images/sitelogo.svg'
 import {Nav, 
         NavbarContainer, 
         MobileIcon, 
@@ -58,13 +58,22 @@ const Navbar = ({toggle}) => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="discover"
+                        <NavLinks to="discover"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 exact='true'
                                 offset={-80}
                             >Discover</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                        <NavLinks to="whatyouget"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >What You Get</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="beforepricing"
@@ -87,7 +96,7 @@ const Navbar = ({toggle}) => {
                         
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/sign-in">Sign In</NavBtnLink>
+                            <NavBtnLink target="_blank" rel="noreferrer" href="tel:99-316-3111">Call Now</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

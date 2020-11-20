@@ -19,7 +19,7 @@ export const PricingContainer = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        height: 4200px;
+        height: 4500px;
     }
 `
 
@@ -231,8 +231,21 @@ export const DarkTick = styled.svg`
     list-style-type: none;
 `
 
-export const BtnWrap = styled.div`
-    display: flex;
-    justify-content: flex-start;
+export const NavBtnLink = styled.a`
+    border-radius: 50px;
+    background: #000;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
+    margin-top: 15px;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #01BF71;
+    }
 `

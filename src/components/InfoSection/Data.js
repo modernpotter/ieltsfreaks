@@ -95,7 +95,7 @@ export const homeObjFour = {
     topLine: 'Pre-Launch Special',
     headLine: 'The Blueprint 2.0 is in Production.',
     description: "We have 3 different preparation options you can choose from. The exact pricing is below. But, the news is the Blueprint 2.0 hasn't opened yet. ",
-    launchSpan: "And that's why we are giving 70% off (the price listed below) to the first 10 students and 40% off to the next students who enroll and pay before the launch.",
+    launchSpan: "And that's why we are giving 50% off (substract from the price listed below) to the first 10 students and 20% off to the next students who enroll and pay before the launch.",
     bigSpan6: ' The launch is at 10:00 am, December 1, Uzbekistan time.',
     buttonLabel: 'See Options and What They Include',
     to: 'pricing',

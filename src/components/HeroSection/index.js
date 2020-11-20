@@ -36,6 +36,9 @@ const HeroSection = () => {
                     We Believe Anyone Can Score 7.0+ on the IELTS If Correctly Trained.
                 </HeroP>
                 <HeroP>
+                    We Believe in Letting Results Speak.
+                </HeroP>
+                <HeroP>
                     That's Why We Are Coming.
                 </HeroP>
                 <HeroBtnWrapper>

@@ -1,8 +1,9 @@
 import React from 'react'
-import { Button } from '../ButtonElements'; 
+// import { Button } from '../ButtonElements'; 
 import Icon1 from '../../images/student.svg'
 import Icon2 from '../../images/legend.svg'
 import Icon3 from '../../images/pro.svg'
+import Icon4 from '../../images/taken.svg'
 
 import { 
         PricingContainer, 
@@ -22,7 +23,7 @@ import {
         DarkTick,
         GreenTick,
         RedTick,
-        BtnWrap
+        NavBtnLink
     } from './PricingElements';    
 
 const Pricing = (
@@ -50,7 +51,7 @@ const Pricing = (
                                 <br></br>
                                 <span className="price" style={{ display: 'block', marginTop: '9px', marginBottom: '21px' }}>
                                     <span style={{fontSize: '15px', textTransform: 'inherit' }} className="sign">UZS</span>
-                                    <span style={{fontSize: '40px', textTransform: 'inherit', verticalAlign: 'middle', lineHeight: '55px' }} className="currency"> 982</span>
+                                    <span style={{fontSize: '40px', textTransform: 'inherit', verticalAlign: 'middle', lineHeight: '55px' }} className="currency"> 479</span>
                                     <span style={{fontSize: '23px', textTransform: 'inherit', verticalAlign: 'bottom' }} className="cent">000</span>
                                     <span style={{fontSize: '18px', textTransform: 'inherit', letterSpacing: '4px', verticalAlign: 'bottom' }} className="month">/YEAR</span>
                                 </span><br></br>
@@ -72,23 +73,12 @@ const Pricing = (
                                 <PricingLi><DarkTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" ><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></DarkTick> Bonus Recommended Reading, Listening, Speaking, Writing Materials.</PricingLi>
                                 <PricingLi><DarkTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" ><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></DarkTick> No Need to Go to a Learning Centre.</PricingLi>
                                 <PricingLi><DarkTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" ><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></DarkTick> Easily and Safely Can Prepare At Home.</PricingLi>
+                                <PricingLi><DarkTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" ><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></DarkTick> Future Updates of the Course.</PricingLi>
                             </PricingUl>
                         </PricingDiv>
                     </BenContainer>
-                    <BtnWrap>
-                        <Button
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact="true"
-                            offset={-80}
-                            primary={primary ? 1 : 0}
-                            dark={dark ? 1 : 0}
-                            dark2={dark2 ? 1 : 0}
-                            style={{ textDecoration: 'none', marginTop: '25px' }}
-                            href="//t.me/hehe"
-                        >Purchase</Button>
-                    </BtnWrap>       
+                        <NavBtnLink target="_blank" rel="noreferrer" a href="tel:993163111">Call Now</NavBtnLink>
+                        <NavBtnLink target="_blank" rel="noreferrer" a href="//t.me/dawoudabdullaev">Text on Telegram</NavBtnLink>                            
                 </PricingCard>
 
                 <PricingMid>
@@ -115,7 +105,7 @@ const Pricing = (
                             </span>
                             <span className="price" style={{ display: 'block', marginTop: '9px', marginBottom: '21px' }}>
                                 <span style={{ color: '#e41b22', fontSize: '15px', textTransform: 'inherit'}} className="sign">UZS</span>
-                                <span style={{ color: '#e41b22', fontSize: '30px', textTransform: 'inherit', verticalAlign: 'bottom', lineHeight: '50px'}} className="currency"> 982</span>
+                                <span style={{ color: '#e41b22', fontSize: '30px', textTransform: 'inherit', verticalAlign: 'bottom', lineHeight: '50px'}} className="currency"> 479</span>
                                 <span style={{ color: '#e41b22', fontSize: '20px', textTransform: 'inherit', verticalAlign: 'bottom'}} className="cent">000</span>
                                 <span style={{ color: '#e41b22', fontSize: '14px', textTransform: 'inherit', letterSpacing: '4px', verticalAlign: 'bottom' }} className="month">/YEAR</span>
                             </span><br></br>
@@ -132,21 +122,9 @@ const Pricing = (
                             </PricingUl>
                         </PricingDiv>                    
                     </BenContainer>
-                    <PricingIcon style={{}}src={Icon2} />
-                    <BtnWrap>
-                        <Button
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact="true"
-                            offset={-80}
-                            primary={primary ? 1 : 0}
-                            dark={dark ? 1 : 0}
-                            dark2={dark2 ? 1 : 0}
-                            style={{ textDecoration: 'none', marginTop: '25px'}}  
-                            href="//t.me/hehe"                                                      
-                        >Purchase</Button>
-                    </BtnWrap>
+                    <PricingIcon style={{}}src={Icon4} />
+                    <NavBtnLink target="_blank" rel="noreferrer" a href="tel:993163111">Call Now</NavBtnLink>
+                    <NavBtnLink target="_blank" rel="noreferrer" a href="//t.me/dawoudabdullaev">Text on Telegram</NavBtnLink>
                 </PricingMid>
 
                 <PricingCard>                    
@@ -176,27 +154,15 @@ const Pricing = (
                                 <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> Live Writing Discussions.</PricingLi>
                                 <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> 10+ Custom-Made Listening Exercises.</PricingLi>
                                 <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> Private Helpful IELTS FREAKS Community.</PricingLi>
-                                <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> Daily Chances to Win a Speaking Mock Test Every Week.</PricingLi>
-                                <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> Daily Chances to Win a Writing Check Every Week.</PricingLi>
+                                <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> Daily Chances to Win a Free Speaking Mock Test.</PricingLi>
+                                <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> Daily Chances to Win a Free Writing Check.</PricingLi>
                                 <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> Weekly Mock Exams.</PricingLi>
                                 <PricingLi><RedTick xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><path d="M504.502 75.496c-9.997-9.998-26.205-9.998-36.204 0L161.594 382.203 43.702 264.311c-9.997-9.998-26.205-9.997-36.204 0-9.998 9.997-9.998 26.205 0 36.203l135.994 135.992c9.994 9.997 26.214 9.99 36.204 0L504.502 111.7c9.998-9.997 9.997-26.206 0-36.204z" stroke="currentColor" strokeWidth="5"></path></RedTick> Weekly Live Q&A Sessions.</PricingLi>
                             </PricingUl>                            
                         </PricingDiv>
                     </BenContainer>
-                    <BtnWrap>
-                        <Button
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            exact="true"
-                            offset={-80}
-                            primary={primary ? 1 : 0}
-                            dark={dark ? 1 : 0}
-                            dark2={dark2 ? 1 : 0}
-                            style={{ textDecoration: 'none', marginTop: '25px' }}
-                            href="//t.me/hehe"
-                        >Purchase</Button>
-                    </BtnWrap>
+                    <NavBtnLink target="_blank" rel="noreferrer" a href="tel:993163111">Call Now</NavBtnLink>
+                    <NavBtnLink target="_blank" rel="noreferrer" a href="//t.me/dawoudabdullaev">Text on Telegram</NavBtnLink>
                 </PricingCard>
             </PricingWrapper>
         </PricingContainer>
