@@ -96,7 +96,7 @@ const Navbar = ({toggle}) => {
                         
                     </NavMenu>
                     <NavBtn>
-                            <NavBtnLink target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeORtomtVi1enxlTPhdzJ6UfdUi7AwQU_2yeal3N8lu1bvjMA/viewform?usp=sf_link">Apply</NavBtnLink>
+                            <NavBtnLink target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeORtomtVi1enxlTPhdzJ6UfdUi7AwQU_2yeal3N8lu1bvjMA/viewform?usp=sf_link">Apply Now</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
