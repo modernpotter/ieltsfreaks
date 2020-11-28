@@ -74,16 +74,7 @@ const Navbar = ({toggle}) => {
                                 exact='true'
                                 offset={-80}
                             >What You Get</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="beforepricing"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}
-                            >Pre-Launch</NavLinks>
-                        </NavItem>
+                        </NavItem>                        
                             <NavItem>
                                 <NavLinks to="pricing"
                                     smooth={true}
@@ -93,6 +84,16 @@ const Navbar = ({toggle}) => {
                                     offset={-80}
                                 >Pricing</NavLinks>
                             </NavItem>
+
+                            <NavItem>
+                            <NavLinks to="footer"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >Let's Chat :)</NavLinks>
+                        </NavItem>
                         
                     </NavMenu>
                     <NavBtn>

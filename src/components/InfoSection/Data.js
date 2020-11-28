@@ -77,14 +77,16 @@ export const homeObjThree = {
     lightTextDesc: false,
     topLine: 'Questions?',
     headLine: 'Interested and have Questions?',
-    description: "Contact us now!",
-    buttonLabel: 'Ask Questions',
+    description: "Let's Talk Now!",
+    buttonLabel: 'Chat on Telegram',
+    to: 'footer',
     imgStart: false,
     img: './images/questions.svg',
     alt: 'Charts',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    navtext: 'Chat on Tee'
 };
 
 export const homeObjFour = {

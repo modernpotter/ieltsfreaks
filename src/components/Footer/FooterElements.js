@@ -51,7 +51,7 @@ export const FooterLinkItems = styled.div`
 `
 
 export const FooterLinkTitle = styled.h1`
-    font-size: 20px;
+    font-size: 32px;
     margin-bottom: 16px;
     
 `
@@ -60,7 +60,7 @@ export const FooterLink = styled(LinkR)`
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    font-size: 16px;
+    font-size: 22px;
 
     &:hover {
         color: #01bf71;

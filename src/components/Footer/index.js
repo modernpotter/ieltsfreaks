@@ -3,7 +3,10 @@ import {animateScroll as scroll } from 'react-scroll';
 
 import {
     FaInstagram,
-    FaTelegram
+    FaTelegram,
+    FaPhoneAlt,
+    FaPenAlt,
+    FaSms
 } from 'react-icons/fa'
 
 import {
@@ -38,11 +41,12 @@ const Footer = () => {
 
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>  Contact Us</FooterLinkTitle>
-                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="tel:99-316-3111">Call Us: 99 316 3 111</ExtLink></FooterLink>
-                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="//www.t.me/dawoudabdullaev">Telegram</ExtLink></FooterLink>
-                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="mailto: ieltsfreaks@gmail.com">Email: ieltsfreaks@gmail.com</ExtLink></FooterLink>
-                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="sms:+998 99 316 3 111&body=Hi! You are Texting IELTS freaks">Send SMS</ExtLink></FooterLink>
+                            <FooterLinkTitle>  Let's chat!</FooterLinkTitle>
+                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="tel:99-316-3111"><FaPhoneAlt /> 99 316 3 111</ExtLink></FooterLink>
+                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="//www.t.me/dovud_126"><FaTelegram/> Chat on Telegram</ExtLink></FooterLink>
+                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="//www.instagram.com/dovudxon126"><FaInstagram /> Chat on Instagram</ExtLink></FooterLink>
+                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="sms:+998 99 316 3 111&body=Hi! You are Texting IELTS freaks"><FaSms/> Send SMS</ExtLink></FooterLink>
+                            <FooterLink target="_blank" rel="noreferrer"><ExtLink href="mailto: ieltsfreaks@gmail.com"><FaPenAlt /> Email </ExtLink></FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
@@ -55,10 +59,10 @@ const Footer = () => {
                             <span style={{ fontFamily: 'Brandon Grotesque Black', fontSize: '22px' }}><span style={{ fontFamily: 'Brandon Grotesque Black', color: '#E02E3A' }}>ielts </span>freaks </span> © {new Date().getFullYear()} All rights reserved.
                         </WebsiteRights>
                         <SocialIcons>                            
-                            <SocialIconLink href="//www.instagram.com/ielts_freaks" target="_blank" aria-label="Instagram">
+                            <SocialIconLink href="//www.instagram.com/dovudxon126" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href="//wwww.t.me/ieltsfreaks" target="_blank" aria-label="Telegram">
+                            <SocialIconLink href="//wwww.t.me/dovud_126" target="_blank" aria-label="Telegram">
                                 <FaTelegram/>
                             </SocialIconLink>
                         </SocialIcons>
