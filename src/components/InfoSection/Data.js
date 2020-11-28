@@ -76,7 +76,7 @@ export const homeObjThree = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Questions?',
-    headLine: 'Interested but have Questions?',
+    headLine: 'Interested and have Questions?',
     description: "Contact us now!",
     buttonLabel: 'Ask Questions',
     imgStart: false,
@@ -109,9 +109,9 @@ export const homeObjFour = {
 
 export const homeObjSeven = {
     id: 'sign-up',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'but ...',
     headLine: 'The Point is Results, right?!',
     description: "",
@@ -122,11 +122,11 @@ export const homeObjSeven = {
     bigSpan3: ' and other IELTS schools - ',
     bigSpan2: '  We Get Results for Ourselves and We Can For You.',    
     buttonLabel: 'How much is it?',
-    imgStart: true,
+    imgStart: false,
     img: './images/winners.svg',
     alt: 'Charts',
-    dark: true,
-    primary: true,
-    darkText: false,
+    dark: false,
+    primary: false,
+    darkText: true,
     to: 'beforepricing'
 };
